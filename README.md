@@ -33,7 +33,7 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions
 
 ## Installation and Usage
 
-In order to run this application, you will want to `git clone` this repository so that the code is on your local machine. Run `npm i` while in the root directory in order to install all necessary [Node.js](https://nodejs.org/en/) dependencies. Then run `npm start` to launch the server.
+In order to run this application, you will want to `git clone` this repository so that the code is on your local machine. Run `npm i` while in the root directory in order to install all necessary [Node.js](https://nodejs.org/en/) dependencies. Then run `npm run test` to run tests, `npm run seed` to seed the database, and `npm start server` to launch the server.
 
 This application is hosted at Port 3001, so typing: `http://localhost:3001/` into the address bar of your browser (while the server is running) should display the user interface.
 
@@ -43,21 +43,22 @@ Alternatively, you can simply visit my [Deployed Link]().
 ## Technologies Utilized
 
 > [Javascript](https://www.javascript.com/)
+> - [Handlebars](https://handlebarsjs.com/)
 
-> [SQL]()
-> - [Sequelize]()
+> [MySQL](https://www.mysql.com/)
+> - [Sequelize](https://sequelize.org/)
 
 > [Express.js](https://expressjs.com/)
 
 > [React](https://reactjs.org/)
 
 > [Node.js](https://nodejs.org/en/)
-> - [Sequelize npm]()
+> - [Sequelize npm](https://www.npmjs.com/package/sequelize)
 > - [Express.js npm](https://www.npmjs.com/package/express)
-> - [Handlebars npm]()
+> - [Handlebars npm](https://www.npmjs.com/package/handlebars)
 
-> [Heroku]()
-> - [JAWS_DB]()
+> [Heroku](https://www.heroku.com/what)
+> - [JAWS_DB](https://www.jawsdb.com/)
 
 
 ## Screenshots and Walkthrough
