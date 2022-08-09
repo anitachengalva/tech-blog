@@ -39,31 +39,33 @@ This application is hosted at Port 3001, so typing: `http://localhost:3001/` int
 
 Alternatively, you can simply visit my [Deployed Link]().
 
+
 ## Technologies Utilized
 
 > [Javascript](https://www.javascript.com/)
 
-> [MongoDB](https://www.mongodb.com/)
+> [SQL]()
+> - [Sequelize]()
 
 > [Express.js](https://expressjs.com/)
 
 > [React](https://reactjs.org/)
 
 > [Node.js](https://nodejs.org/en/)
-> - [Mongoose npm](https://www.npmjs.com/package/mongoose)
+> - [Sequelize npm]()
 > - [Express.js npm](https://www.npmjs.com/package/express)
+> - [Handlebars npm]()
 
-> [Google Books API](https://developers.google.com/books)
+> [Heroku]()
+> - [JAWS_DB]()
 
-> [RESTful API](https://aws.amazon.com/what-is/restful-api/)
-
-> [GraphQL API](https://graphql.org/learn/)
 
 ## Screenshots and Walkthrough
 
 ![Alt-txt-placeholder](path-placeholder)
 *caption*
 </br>
+
 
 ## Contributors
 
