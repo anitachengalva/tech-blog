@@ -10,4 +10,24 @@ Post.init({
     primaryKey: true,
     autoIncrement: true,
   },
+  title: {
+    type: DataTypes.STRING,
+    allowNull: false
+  },
+  body: {
+    type: DataTypes.TEXT,
+    allowNull: false
+  },
+  userId: {
+    type: DataTypes.INTEGER,
+    references: {
+        model: "user",
+        key: "id"
+    },
+  }
+}, {
+    sequelize,
+    freezeTableName: true,
+    underscored: true,
+    modelName: "post"
 });
